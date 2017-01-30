@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'batslack';
-  src: url('chrome-extension://demhhimkainjjgnpnlaoinmmneilcjhl/fonts/icomoon.eot'),
-       url('chrome-extension://demhhimkainjjgnpnlaoinmmneilcjhl/fonts/icomoon.woff') format('woff'), 
-       url('chrome-extension://demhhimkainjjgnpnlaoinmmneilcjhl/fonts/icomoon.ttf') format('truetype'), 
-       url('chrome-extension://demhhimkainjjgnpnlaoinmmneilcjhl/fonts/icomoon.svg') format('svg');
+  src: url('chrome-extension://jmjnnlhekpopcoghpemfdpjebandncbn/fonts/icomoon.eot'),
+       url('chrome-extension://jmjnnlhekpopcoghpemfdpjebandncbn/fonts/icomoon.woff') format('woff'), 
+       url('chrome-extension://jmjnnlhekpopcoghpemfdpjebandncbn/fonts/icomoon.ttf') format('truetype'), 
+       url('chrome-extension://jmjnnlhekpopcoghpemfdpjebandncbn/fonts/icomoon.svg') format('svg');
 }
 /*#direct_messages:before {
 	content: "\a0\a0\a0\a0\a0\a0 Bat Calls";
@@ -19,9 +19,9 @@
     background-image: url("https://s3.amazonaws.com/jameskmarlowe/windows.png");
     background-size: 20%;*/
 }
-.channels_list_holder ul li > a, .channels_list_holder ul li a.im_name, .channels_list_holder ul li span.im_name, .channels_list_holder ul li a.mpim_name, .channels_list_holder ul li a.group_name, .channels_list_holder ul li a.channel_name, .channels_list_holder h2, .list_more, #team_menu:before, #team_menu .notifications_menu_btn, #team_menu .team_name_caret, #channels_scroller.show_which_channel_is_active ul li.active a.channel_name .prefix, #channels_scroller.show_which_channel_is_active ul li.active a.group_name .prefix, #team_menu_user_name, #team_menu_user_details, #channels_nav ul li button, .channels_list_holder ul li.unread .prefix, .channels_list_holder ul li.member .im_close, .channels_list_holder ul li.mpim .mpim_close, .channels_list_holder ul li.group .group_close, #channels_nav ul li > a, #channels_nav ul li a.im_name, #channels_nav ul li span.im_name, #channels_nav ul li a.mpim_name, #channels_nav ul li a.group_name, #channels_nav ul li a.channel_name, #quick_switcher_btn > i {
-    color: #FFF !important;
-    opacity: 0.6;
+.channels_list_holder ul li > a, .channels_list_holder ul li a.im_name, .channels_list_holder ul li span.im_name, .channels_list_holder ul li a.mpim_name, .channels_list_holder ul li a.group_name, .channels_list_holder ul li a.channel_name, .channels_list_holder h2, .list_more, #team_menu:before, #team_menu .notifications_menu_btn, #team_menu .team_name_caret, #channels_scroller.show_which_channel_is_active ul li.active a.channel_name .prefix, #channels_scroller.show_which_channel_is_active ul li.active a.group_name .prefix, #team_menu_user_name, #team_menu_user_details, #channels_nav ul li button, .channels_list_holder ul li.unread .prefix, .channels_list_holder ul li.member .im_close, .channels_list_holder ul li.mpim .mpim_close, .channels_list_holder ul li.group .group_close, #channels_nav ul li > a, #channels_nav ul li a.im_name, #channels_nav ul li span.im_name, #channels_nav ul li a.mpim_name, #channels_nav ul li a.group_name, #channels_nav ul li a.channel_name, #quick_switcher_btn > i, .display_flex {
+    color: #FFFFFF !important;
+    opacity: 0.7;
 }
 .sidebar_theme_hoth_theme #channels_scroller.show_which_channel_is_active li.active .presence.active i.presence_icon, .sidebar_theme_hoth_theme #channels_scroller.show_which_channel_is_active li.active .slackbot_icon {
     color: #FFEB3B !important;
@@ -30,7 +30,7 @@
     color: #FFEB3B !important;
     opacity: 1;
 }
-#channels_scroller.show_which_channel_is_active ul li.active > a, #channels_scroller.show_which_channel_is_active ul li.active a.channel_name, #channels_scroller.show_which_channel_is_active ul li.active a.group_name, #channels_scroller.show_which_channel_is_active ul li.active a.im_name, #channels_scroller.show_which_channel_is_active ul li.active span.im_name, #channels_scroller.show_which_channel_is_active ul li.active a.mpim_name, #channels_nav ul li.unread_link.active > a, #channels_nav ul li.unread_link.active a.im_name, #channels_nav ul li.unread_link.active span.im_name, #channels_nav ul li.unread_link.active a.mpim_name, #channels_nav ul li.unread_link.active a.group_name, #channels_nav ul li.unread_link.active a.channel_name {
+#channels_scroller.show_which_channel_is_active ul li.active > a, #channels_scroller.show_which_channel_is_active ul li.active a.channel_name, #channels_scroller.show_which_channel_is_active ul li.active a.group_name, #channels_scroller.show_which_channel_is_active ul li.active a.im_name, #channels_scroller.show_which_channel_is_active ul li.active span.im_name, #channels_scroller.show_which_channel_is_active ul li.active a.mpim_name, #channels_nav ul li.unread_link.active > a, #channels_nav ul li.unread_link.active a.im_name, #channels_nav ul li.unread_link.active span.im_name, #channels_nav ul li.unread_link.active a.mpim_name, #channels_nav ul li.unread_link.active a.group_name, #channels_nav ul li.unread_link.active a.channel_name, #channel {
     background: #000 !important;
     opacity: 1;
     color: #FFFFFF !important;
