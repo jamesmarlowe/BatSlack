@@ -1,12 +1,14 @@
 {
   "manifest_version": 2,
   "name": "BatSlack",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Change your Slack into BatSlack",
   "content_scripts": [{
     "css": ["styles.css"],
     "js": ["content.js"],
     "matches": ["https://*.slack.com/*"]
-  }]
- 
+  }],
+  "web_accessible_resources": [
+    "fonts/*"
+  ]
 }
