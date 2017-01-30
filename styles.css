@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'batslack';
+  src: url('https://s3.amazonaws.com/batslack/fonts/icomoon.eot'),
+       url('https://s3.amazonaws.com/batslack/fonts/icomoon.woff') format('woff'), 
+       url('https://s3.amazonaws.com/batslack/fonts/icomoon.ttf') format('truetype'), 
+       url('https://s3.amazonaws.com/batslack/fonts/icomoon.svg') format('svg');
+}
+/*#direct_messages:before {
+	content: "\a0\a0\a0\a0\a0\a0 Bat Calls";
+}
+#direct_messages_header {
+	display: none;
+}*/
+#col_channels_bg,#channels_scroller {
+    /*color: #000;
+    background-image: url("https://s3.amazonaws.com/jameskmarlowe/Wayne_Enterprises_Poster_AK.png");
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://s3.amazonaws.com/jameskmarlowe/windows.png");
+    background-size: 20%;*/
+}
+.channels_list_holder ul li > a, .channels_list_holder ul li a.im_name, .channels_list_holder ul li span.im_name, .channels_list_holder ul li a.mpim_name, .channels_list_holder ul li a.group_name, .channels_list_holder ul li a.channel_name, .channels_list_holder h2, .list_more, #team_menu:before, #team_menu .notifications_menu_btn, #team_menu .team_name_caret, #channels_scroller.show_which_channel_is_active ul li.active a.channel_name .prefix, #channels_scroller.show_which_channel_is_active ul li.active a.group_name .prefix, #team_menu_user_name, #team_menu_user_details, #channels_nav ul li button, .channels_list_holder ul li.unread .prefix, .channels_list_holder ul li.member .im_close, .channels_list_holder ul li.mpim .mpim_close, .channels_list_holder ul li.group .group_close, #channels_nav ul li > a, #channels_nav ul li a.im_name, #channels_nav ul li span.im_name, #channels_nav ul li a.mpim_name, #channels_nav ul li a.group_name, #channels_nav ul li a.channel_name, #quick_switcher_btn > i {
+    color: #FFF !important;
+    opacity: 0.6;
+}
+.sidebar_theme_hoth_theme #channels_scroller.show_which_channel_is_active li.active .presence.active i.presence_icon, .sidebar_theme_hoth_theme #channels_scroller.show_which_channel_is_active li.active .slackbot_icon {
+    color: #FFEB3B !important;
+}
+#channels_scroller .presence.active i.presence_icon, #channel_header #presence.active:before, #team_menu #presence.active:before, .slackbot_icon {
+    color: #FFEB3B;
+    opacity: 1;
+}
+#channels_scroller.show_which_channel_is_active ul li.active > a, #channels_scroller.show_which_channel_is_active ul li.active a.channel_name, #channels_scroller.show_which_channel_is_active ul li.active a.group_name, #channels_scroller.show_which_channel_is_active ul li.active a.im_name, #channels_scroller.show_which_channel_is_active ul li.active span.im_name, #channels_scroller.show_which_channel_is_active ul li.active a.mpim_name, #channels_nav ul li.unread_link.active > a, #channels_nav ul li.unread_link.active a.im_name, #channels_nav ul li.unread_link.active span.im_name, #channels_nav ul li.unread_link.active a.mpim_name, #channels_nav ul li.unread_link.active a.group_name, #channels_nav ul li.unread_link.active a.channel_name {
+    background: #000;
+    opacity: 1;
+    color: #FFFFFF !important;
+}
+.ts_icon, .ts_icon_presence, .presence_icon {
+    color: #FFF;
+    opacity: 1;
+}
+.channel_list_add_link {
+    color: #BBB !important;
+}
+#team_menu, #quick_switcher_btn, #team_menu_overlay, #col_channels_overlay {
+    background: #303E4D;
+    border-color: #303E4D;
+}
+#col_channels_bg, #col_channels, #col_channels_footer {
+    background: #303E4D;
+}
+#col_channels_footer {
+    background: #0a1533;
+}
+#direct_messages_header:before {
+	content: "Bat ";
+}
+.channel_list_header_label:before  {
+    content: "Bat Inc.";
+}
+#team_name {
+    display: none;
+}
+#team_name:before {
+    content: "Bat Slack";
+}
+.team_name_container :after {
+    content: "Bat Slack";
+}
+.channel_members_icon:before {
+    font-family: "batslack";
+    content: '\e901';
+}
+.ts_icon_bell_o:before {
+    font-family: "batslack";
+    content: '\e902';
+}
+.ts_icon_channel_pane_hash:before {
+    font-family: "batslack";
+    content: '\e901';
+}
+.ts_icon_heart:before {
+    font-family: "batslack";
+    content: '\e901';
+}
+.ts_icon_presence:before {
+    font-family: "batslack";
+    content: '\e901';
+}
+.away>.ts_icon_presence:before {
+    font-family: "batslack";
+    content: '\e901';
+}
+.dnd>.ts_icon_presence:before {
+    font-family: "batslack";
+    content: '\e901';
+}
+.dnd.away>.ts_icon_presence:before {
+    font-family: "batslack";
+    content: '\e901';
+}
+.ts_icon_search:before {
+    font-family: "batslack";
+    content: '\e901';
+}
+.ts_icon_filter:before {
+    font-family: "batslack";
+    content: '\e903';
+}
+#team_menu, #quick_switcher_btn, #team_menu_overlay, #col_channels_overlay, #quick_switcher_btn:active, #quick_switcher_btn:focus, #quick_switcher_btn:hover {
+    background: #142933;
+    border-color: #142933;
+}
+body:not(.sorting_mode) .channels_list_holder ul li > a:hover, body:not(.sorting_mode) .channels_list_holder ul li a.im_name:hover, body:not(.sorting_mode) .channels_list_holder ul li span.im_name:hover, body:not(.sorting_mode) .channels_list_holder ul li a.mpim_name:hover, body:not(.sorting_mode) .channels_list_holder ul li a.group_name:hover, body:not(.sorting_mode) .channels_list_holder ul li a.channel_name:hover, #monkey_scroll_wrapper_for_channels_scroller .monkey_scroll_bar {
+    background: #142933;
+}
+body:not(.loading) #team_menu:hover, body:not(.loading) #team_menu.active, #quick_switcher_btn:hover, #quick_switcher_btn:active {
+    background: #000;
+    border-color: #000;
+}
